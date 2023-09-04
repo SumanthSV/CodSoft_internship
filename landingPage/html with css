@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-image: linear-gradient(to top,skyblue,white);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 115vh;
+            width: 100%; */
+            background-color: white;
+            height: 100%;
+            width: 100%;
+        }
+        .navbar{
+            display: flex;
+            position: relative;
+            left: 20px;
+            background-image: linear-gradient(to right,skyblue,white);
+            box-shadow: 4px 4px 4px black;
+        }
+        .navbar p{
+            margin-left: 100px;
+        }
+        .navbar img{
+            position: relative;
+            left: 40px;
+        }
+        .navbar input{
+            position: relative;
+            height: 20px;
+            border-radius: 5px;
+            left: 500px;
+            top: 10px;
+        }
+        .sym{
+            position: relative;
+            left: 500px;
+            top: -4px;
+        }
+        .photo{
+            position: relative;
+            top: 20px;
+            left: 25px;
+            display: flex;
+        }
+        .line{
+             position: relative;
+            left: 250px;
+            display: flex;
+        }
+        .line2{
+            position: relative;
+            left: 200px;
+        }
+        .line3{
+            position: relative;
+            left: 400px;
+        }
+        .line3 button{
+            position: relative;
+            left: 100px;
+            top: -65px;
+            color: blue;
+        }
+        .box1{
+            background-color: transparent;
+            border-radius: 6px;
+            position: relative;
+            width: 200px;
+            top: 20px;
+            text-align: center;
+            background-image: linear-gradient(to top,skyblue,white);
+            box-shadow: 6px 6px 6px black;   
+        }
+        .box1 h3{
+            position: relative;
+            left: 20px;  
+        }
+        .box2{
+            background-color: transparent;
+            border-radius: 6px;
+            position: relative;
+            width: 200px;
+            top: 20px;
+            text-align: center;
+            left: 200px;
+            background-image: linear-gradient(to top,skyblue,white);
+            box-shadow: 6px 6px 6px black;
+        }
+        .box2 h3{
+            position: relative;
+            left: 50px;
+        }
+        .box3{
+            background-color: transparent;
+            position: relative;
+            width: 200px;
+            left: 400px;
+            top: 20px;
+            text-align: center;
+            background-image: linear-gradient(to top,skyblue,white);
+            box-shadow: 6px 6px 6px black;
+        }
+        .box3 h3{
+            position: relative;
+            left: 50px;
+        }
+        .box4{
+            background-color: transparent;
+            position: relative;
+            width: 200px;
+            left: 600px;
+            top: 20px;
+            text-align: center;
+            background-image: linear-gradient(to top,skyblue,white);
+            box-shadow: 6px 6px 6px black;
+        }
+        .box4 h3{
+            position: relative;
+            left: 50px;
+        }
+        .boxes{
+            position: relative;
+            top: 15px;
+            right: 300px;
+            display: flex;
+            justify-content: center;
+        }
+        .per{
+            position: relative;
+            left: 30px;
+            top: 60px;
+        }
+        .container{
+            display: flex;
+            position: relative;
+            top: 120px;
+        }
+        .container1{
+            text-align: center;
+            background-image: linear-gradient(to top,white,skyblue);
+            border-radius: 5px;
+            width: 250px;
+            position: relative;
+            left: 200px;
+            box-shadow: 6px 6px 6px black;
+        }
+        .container1:hover{
+            background-image:linear-gradient(to top,grey,white);
+        }
+        .container2{
+            text-align: center;
+            background-image: linear-gradient(to top,white,skyblue);
+            box-shadow: 6px 6px 6px black;
+            border-radius: 5px;
+            width: 250px;
+            left: 400px;
+            position: relative;
+        }
+        .container2:hover{
+            background-image:linear-gradient(to top,grey,white);
+        }
+        .container3{
+            text-align: center;
+            background-image: linear-gradient(to top,white,skyblue);
+            box-shadow: 6px 6px 6px black;
+            border-radius: 5px;
+            width: 250px;
+            left: 600px;
+            position: relative;
+        }
+        .container3:hover{
+            background-image:linear-gradient(to top,grey,white);
+        }
+        .sel{
+            position: relative;
+            top: 200px;
+            left: 30px;
+        }
+        .photo img{
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+        }
+        .las{
+            position: relative;
+            top: 230px;
+        }
+        .las1{
+            position: relative;
+            left: 150px;
+            width: 78%;
+            height: 30px;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: skyblue;
+        }
+        .las2{
+            top: 10px;
+            position: relative;
+            left: 150px;
+            width: 78%;
+            height: 30px;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: skyblue;
+        }
+        .las3{
+            top: 20px;
+            position: relative;
+            left: 150px;
+            width: 78%;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: skyblue;
+        }
+        .line3 a button{
+            buttom: 20px;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+   <div class="navbar">
+        <img src="https://www.seoclerk.com/pics/000/748/061/bd1ddcf20243b5366e14524b6b79c773.png" alt="" width="40px">
+        <p>Dashboard</p>
+        <p class="sym">&#128270;</p><input type="text" placeholder="Search here.....">
+   </div>
+   <div class="photo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg" alt="" width="100px">
+         <pre style="font-size: 20px">  Mr. Virat kohli</pre>
+        <div class="line">
+             <div class="line1"> 
+                <p>Punch in</p>
+                <p>4:30AM</p>
+            </div>
+            <div class="line2"> 
+                <p>Early by</p>
+                <p>6 minute</p>
+            </div>
+            <div class="line3"> 
+                <p>Leave balance</p>
+                <p>90.5</p>
+                <a href="https://en.wikipedia.org/wiki/Virat_Kohli"><button>View Profile</button></a>  
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="boxes">
+        <div class="box1">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.Kf-A4bhyw6NFAggbsk3cdwHaIU&pid=Api&P=0&h=180" alt="" width="50px">
+            <h2 >Attendance </h2>
+            <p>from 13.14 yr to till date       ⦾</p>
+            <p>current semester     ⦾</p> 
+        </div>
+        <div class="box2">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.vYF1ooBmw9IHrcnvablRMgHaHa&pid=Api&P=0&h=180" alt="" width="50px">
+            <h2 >FEEDBACK</h2>
+            <p>from 13.14 yr to till date       ⦾</p>
+            <p>current semester     ⦾</p> 
+        </div>
+        <div class="box3">
+            <img src="https://thumbs.dreamstime.com/b/results-results-silver-badge-blue-ribbon-results-120418368.jpg" alt="" width="50px">
+            <h2 >RESULT</h2>
+            <p>from 13.14 yr to till date       ⦾</p>
+            <p>current semester     ⦾</p> 
+        </div>  
+        <div class="box4">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HKuE0YMYZFFZ6amb9OR1ogHaG9&pid=Api&P=0&h=180" alt="" width="50px">
+            <h2 >Syllabus</h2>
+            <p>from 13.14 yr to till date       ⦾</p>
+            <p>current semester     ⦾</p> 
+        </div>  
+    </div>
+    <div class="per">
+        Students performance cards
+        <select name="Fruits" id="">
+                <option value="name">Faculty</option>
+                <option value="name">Student</option>
+        </select>   
+    </div>
+    <div class="container">
+        <div class="container1"> 
+            <img src="https://tse4.mm.bing.net/th?id=OIP.A7M_Pg9Rybcy9f9LHp5F8wAAAA&pid=Api&P=0&h=180" alt="" width="70px">
+            <h3>Attendance</h3>
+            <p>Attendance<40%</p>
+        </div>
+        <div class="container2">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.rMDelG8r2MnB4aGlXf3XAQHaFf&pid=Api&P=0&h=180" alt="" width="70px">
+            <h3>Subject RESULT</h3>
+            <p>Attendance <=50% + mid result<=50%</p>
+        </div>
+        <div class="container3">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.AHnZn6m2906YVHQ-ODhuRwHaFU&pid=Api&P=0&h=180" alt="" width="70px">
+            <h3>FEEDBACK</h3>
+            <p>Pending FeedBack</p>
+        </div>
+
+    </div>
+    <div class="sel">
+        PBAS API Score
+        <select name="Fruits" id="">
+                <option value="name">2122</option>
+                <option value="name">2123</option>
+                <option value="name">2124</option>
+                <option value="name">2125</option>
+                <option value="name">2126</option>
+        </select>   
+    </div>
+    <div class="las">
+        <div class="las1">
+            <marquee behavior="" direction="left">TEACHING,LEARNING AND EVALUATION REALATED ACTIVITIES <img src="https://tse3.mm.bing.net/th?id=OIP.fp-pOP39GJgbNWGqrP3gbAHaHa&pid=Api&P=0&h=180" alt="" width="30px"></marquee>
+        </div>
+        <div class="las2">
+            <marquee behavior="" direction="left">PROFESSIONAL DEVELOPMENT, CO-CURRICULAR AND EXTENSION ACTIVITIES <img src="https://tse3.mm.bing.net/th?id=OIP.fp-pOP39GJgbNWGqrP3gbAHaHa&pid=Api&P=0&h=180" alt="" width="30px"></marquee>
+        </div>
+        <div class="las3">
+            <marquee behavior="" direction="left">RESEARCH AND ACADEMIC CONTRIBUTIONS <img src="https://tse3.mm.bing.net/th?id=OIP.fp-pOP39GJgbNWGqrP3gbAHaHa&pid=Api&P=0&h=180" alt="" width="30px"></marquee>
+        </div>
+    </div>
+</body>
+</html>
